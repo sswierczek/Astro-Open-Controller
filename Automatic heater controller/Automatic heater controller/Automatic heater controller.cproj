@@ -231,6 +231,9 @@
     <Folder Include="src\ASF\mega\utils\assembler\" />
     <Folder Include="src\ASF\mega\utils\preprocessor\" />
     <Folder Include="src\config\" />
+    <Folder Include="src\dht" />
+    <Folder Include="src\hd44780" />
+    <Folder Include="src\ds18b20" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\asf.h">
@@ -302,16 +305,34 @@
     <None Include="src\ASF\mega\utils\assembler.h">
       <SubType>compile</SubType>
     </None>
-    <Compile Include="src\dht.c">
+    <Compile Include="src\dht\dht.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\dht.h">
+    <Compile Include="src\dht\dht.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\HD44780.c">
+    <Compile Include="src\ds18b20\ds18b20.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\HD44780.h">
+    <Compile Include="src\ds18b20\ds18b20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ds18b20\onewire.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ds18b20\onewire.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ds18b20\romsearch.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ds18b20\romsearch.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hd44780\HD44780.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hd44780\HD44780.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\main.c">
