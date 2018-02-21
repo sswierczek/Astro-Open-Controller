@@ -235,6 +235,7 @@
     <Folder Include="src\hd44780" />
     <Folder Include="src\ds18b20" />
     <Folder Include="src\dewpoint" />
+    <Folder Include="src\data" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\asf.h">
@@ -306,6 +307,12 @@
     <None Include="src\ASF\mega\utils\assembler.h">
       <SubType>compile</SubType>
     </None>
+    <Compile Include="src\data\data.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\data\data.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\dewpoint\dewpoint.c">
       <SubType>compile</SubType>
     </Compile>
