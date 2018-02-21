@@ -13,7 +13,7 @@
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <AssemblyName>MEGA_LED_EXAMPLE1</AssemblyName>
-    <Name>Automatic heater controller</Name>
+    <Name>Astronomy Open Controller AVR Firmware</Name>
     <RootNamespace>MEGA_LED_EXAMPLE1</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
