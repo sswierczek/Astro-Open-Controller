@@ -4,18 +4,9 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
-#include "hd44780/HD44780.h"
+#include "hd44780/HD44780_extensions.h"
 #include "dht/dht.h"
 #include "ds18b20/ds18b20.h"
-
-void LCD_WriteDataArray(const char *buffer)
-{
-	while(*buffer)
-	{
-		LCD_WriteData(*buffer);
-		buffer++;
-	}
-}
 
 int main (void)
 {

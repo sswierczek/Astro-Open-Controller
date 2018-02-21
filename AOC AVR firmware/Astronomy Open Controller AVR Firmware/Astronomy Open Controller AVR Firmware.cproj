@@ -335,6 +335,12 @@
     <Compile Include="src\hd44780\HD44780.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="src\hd44780\HD44780_extensions.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hd44780\HD44780_extensions.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\main.c">
       <SubType>compile</SubType>
     </Compile>
