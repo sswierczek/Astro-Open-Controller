@@ -21,7 +21,7 @@ References:
 #define DHT_DDR DDRB
 #define DHT_PORT PORTB
 #define DHT_PIN PINB
-#define DHT_INPUTPIN PB2
+#define DHT_INPUTPIN PB5
 
 //sensor type
 #define DHT_DHT11 1

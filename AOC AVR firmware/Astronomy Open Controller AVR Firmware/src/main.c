@@ -26,10 +26,12 @@
 #include "dht/dht.h"
 #include "ds18b20/ds18b20.h"
 #include "dewpoint/dewpoint.h"
+#include "pwm/pwm.h"
 #include "data/data.h"
 
 int main (void)
 {
+
 	int sensorTemperature;
 
 	#if DHT_TYPE == DHT_DHT11
@@ -41,6 +43,7 @@ int main (void)
 	#endif
 	
 	data_init();
+	PWM_init();
 
 	for (;;) {
 		

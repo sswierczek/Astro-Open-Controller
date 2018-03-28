@@ -236,8 +236,15 @@
     <Folder Include="src\ds18b20" />
     <Folder Include="src\dewpoint" />
     <Folder Include="src\data" />
+    <Folder Include="src\pwm" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\pwm\pwm.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\pwm\pwm.h">
+      <SubType>compile</SubType>
+    </Compile>
     <None Include="src\asf.h">
       <SubType>compile</SubType>
     </None>
