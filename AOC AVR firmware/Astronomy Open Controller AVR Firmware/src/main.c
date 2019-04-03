@@ -56,9 +56,9 @@ int main (void)
 		
 		// Display data
 		data_pushing_start();
-		data_push("Temp", temperature);
+		data_push("T", temperature);
 		data_push("Hum", humidity);
-		data_push("DT", (float) sensorTemperature / DS18B20_MUL);
+		data_push("ST", (float) sensorTemperature / DS18B20_MUL);
 		data_push("DP", dewpoint_calculate(temperature, humidity));
 
 		_delay_ms(1500);
